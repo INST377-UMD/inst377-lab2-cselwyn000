@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INST377 - Lab 2</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 18px;
+        }
+        input[type="text"] {
+            margin: 5px;
+            padding: 8px;
+            font-size: 32px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 25px 50px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #07090c;
+        }
+    </style>
+</head>
+<body>
+    <form action="thankyou.html" method="post">
+        <div class="form-group">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
